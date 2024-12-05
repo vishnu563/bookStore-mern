@@ -53,16 +53,16 @@ const Home = () => {
           <tbody>
             {books.map((book,index)=>(
               <tr key={book._id} className='h-8'>
-                <td className='border border-slate-700 rounded-md'>
+                <td className='border border-slate-700 text-center rounded-md'>
                   {index+1}
                 </td>
-                <td className='border border-slate-700 rounded-md'>
+                <td className='border border-slate-700 text-center rounded-md'>
                   {book.title}
                 </td>
-                <td className='border border-slate-700 rounded-md max-md:hidden'>
+                <td className='border border-slate-700 text-center rounded-md max-md:hidden'>
                   {book.author}
                 </td>
-                <td className='border border-slate-700 rounded-md max-md:hidden'>
+                <td className='border border-slate-700 text-center rounded-md max-md:hidden'>
                   {book.publishYear}
                 </td>
                 <td className='border border-slate-700 rounded-md'>
